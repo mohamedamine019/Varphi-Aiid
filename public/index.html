@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid Mubarak - Varphi Club</title>
+    <meta name="keywords" content="Eid, Varphi Club, Eid Mubarak, Islamic celebration, community events">
+    <meta name="author" content="Haicheur Mohamed Amine">
+    <link rel="stylesheet" href="home.css?v=2">
+    <link rel="shortcut icon" href="varphi_resized.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <header>
+        <div class="logo">
+            <img src="varphi.jpg" alt="Varphi ClubLogo">
+            <h1>Varphi Club</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#wishes">Wishes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="lanterns">
+            <div class="lantern"></div>
+            <div class="lantern"></div>
+            <div class="lantern"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="animated-text">Eid Mubarak</h1>
+            <h2>عيد مبارك</h2>
+            <p>Celebrating the joyous occasion with Varphi Club</p>
+            <div class="countdown">
+                <div>
+                    <span id="days">00</span>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <span id="hours">00</span>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <span id="minutes">00</span>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <span id="seconds">00</span>
+                    <span>Seconds</span>
+                </div>
+            </div>
+        </div>
+        <div class="moon-decoration"></div>
+        <div class="stars"></div>
+    </section>
+
+    <!-- <section id="events" class="events">
+        <h2 class="section-title">Eid Celebrations & Events</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Eid Prayer</h3>
+                    <p class="date">April 10, 2024 - 7:00 AM</p>
+                    <p>Join us for the special Eid prayer at the Central Mosque followed by community breakfast.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Club Gathering</h3>
+                    <p class="date">April 10, 2024 - 2:00 PM</p>
+                    <p>A special gathering for all club members with food, games, and gifts exchange.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Charity Drive</h3>
+                    <p class="date">April 11, 2024 - 10:00 AM</p>
+                    <p>Participate in our annual charity drive to help those in need during this blessed occasion.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Cultural Night</h3>
+                    <p class="date">April 12, 2024 - 6:00 PM</p>
+                    <p>An evening of cultural performances, poetry, and traditional music to celebrate Eid.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="gallery" class="gallery">
+        <h2 class="section-title">Memories Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="all varphi.jpg" alt="pi day Celebration">
+                <div class="overlay">
+                    <p>Pi day Celebration</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="mdia.png" alt="media sortie">
+                <div class="overlay">
+                    <p>Media Sortie</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="remadane.png" alt="First remadane">
+                <div class="overlay">
+                    <p>First Ramadan Gathering</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="sahra science.png" alt="Sahra Science">
+                <div class="overlay">
+                    <p>Sahra Science</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="iftar.png" alt="Community Iftar">
+                <div class="overlay">
+                    <p>Community Iftar</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="fibonacci.png" alt="Fibonacci day">
+                <div class="overlay">
+                    <p>Fibonacci Day</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wishes" class="wishes">
+        <h2 class="section-title">Eid Wishes</h2>
+        <div class="wishes-container">
+            <div class="wishes-form">
+                <h3>Share Your Eid Wishes</h3>
+                <form id="wishForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Wishes</button>
+                </form>
+            </div>
+            <div class="wishes-display">
+                <h3>Community Wishes</h3>
+                <div id="wishesContainer" class="wishes-list">
+                    <!-- Wishes will be added here dynamically -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Varphi Club</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="all varphi.jpg" alt="فارفي كلوب">
+            </div>
+            <div class="about-text">
+                <h3>Our Story</h3>
+                <p>(Varphi Club) was established in 2024 as a community organization dedicated to bringing people together through cultural events, educational programs, and social activities.</p>
+                <p>Our mission is to foster a sense of community, promote cultural exchange, and provide a platform for members to connect, learn, and grow together.</p>
+                <p>Throughout the year, we organize various events, workshops, and gatherings to celebrate important occasions and strengthen community bonds.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span>60+</span>
+                        <p>Members</p>
+                    </div>
+                    <div class="stat">
+                        <span>10+</span>
+                        <p>Events</p>
+                    </div>
+                    <div class="stat">
+                        <span>5</span>
+                        <p>Month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>2 Didouche Mourad Street, Algiers Center 16000, Algeria. (University of Algiers 1)</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Varphiclub@univ-alger.dz</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61566918436057"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/varphi_club/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/varphi_club?t=34ak3Hi5IgUIEq1UMdXEMw&s=09"><i class="fab fa-twitter"></i></a>
+                    <a href="http://www.youtube.com/@varphiclub"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="contactName">Your Name</label>
+                        <input type="text" id="contactName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Your Email</label>
+                        <input type="email" id="contactEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactSubject">Subject</label>
+                        <input type="text" id="contactSubject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message</label>
+                        <textarea id="contactMessage" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="varphi.jpg" alt="فارفي كلوب Logo">
+                <h3>Varphi club</h3>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#wishes">Wishes</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <p>Subscribe to our newsletter for updates on events and activities.</p>
+                <form id="newsletterForm">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Varphi Club All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="home.js?v=3"></script>
+    <script type="module">
+        // Import Firebase modules
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js";
+        import { getFirestore, collection, getDocs, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js";
+      
+        // Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyDlRNT1Nm-y_3Xd5VdWTARN85QNlY316No",
+          authDomain: "varphi-aiid.firebaseapp.com",
+          projectId: "varphi-aiid",
+          storageBucket: "varphi-aiid.appspot.com",
+          messagingSenderId: "808803526615",
+          appId: "1:808803526615:web:f9b91672876684dcb58d92",
+          measurementId: "G-9T06FENQW9"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+      
+        // Function to fetch and display wishes from Firestore
+        async function loadWishesFromFirebase() {
+          const wishesContainer = document.getElementById('wishesContainer');
+          /* wishesContainer.innerHTML = ''; // Clear existing wishes */
+      
+          try {
+            const querySnapshot = await getDocs(collection(db, "wishes"));
+            querySnapshot.forEach((doc) => {
+              const wish = doc.data();
+              const wishCard = document.createElement('div');
+              wishCard.classList.add('wish-card');
+              wishCard.innerHTML = `
+                <h4>${wish.name}</h4>
+                <p>${wish.message}</p>
+              `;
+              wishesContainer.appendChild(wishCard);
+            });
+          } catch (error) {
+            console.error("Error fetching wishes: ", error);
+          }
+        }
+      
+        // Function to submit a new wish to Firestore
+        async function submitWish(event) {
+          event.preventDefault();
+      
+          const name = document.getElementById('name').value.trim();
+          const message = document.getElementById('message').value.trim();
+      
+          if (name && message) {
+            try {
+              await addDoc(collection(db, "wishes"), {
+                name: name,
+                message: message,
+                timestamp: serverTimestamp() // Optional: To sort by newest
+              });
+      
+              // Reset the form and show success message
+              document.getElementById('wishForm').reset();
+              showToast('Your Eid wish has been shared!');
+      
+              // Reload wishes to show the new one
+              loadWishesFromFirebase();
+            } catch (error) {
+              console.error("Error submitting wish:", error);
+            }
+          }
+        }
+      
+        // Attach event listener to the form
+        document.getElementById('wishForm').addEventListener('submit', submitWish);
+      
+        // Load wishes when the page initializes
+        document.addEventListener('DOMContentLoaded', loadWishesFromFirebase);
+      
+        // Function to show a toast notification
+        function showToast(message) {
+          const toast = document.createElement('div');
+          toast.className = 'toast';
+          toast.textContent = message;
+          document.body.appendChild(toast);
+      
+          setTimeout(() => toast.classList.add('show'), 100);
+          setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => document.body.removeChild(toast), 300);
+          }, 3000);
+        }
+      </script>
+      
+      
+</body>
+</html>
